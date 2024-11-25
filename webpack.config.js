@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/index.js", // Entry point
   output: {
     filename: "bundle.js", // Output file
-    path: path.resolve(__dirname, "dist") // Output directory
+    path: path.resolve(__dirname, "docs") // Output directory
   },
   mode: "development", // Set to 'production' for optimized builds
   devServer: {
